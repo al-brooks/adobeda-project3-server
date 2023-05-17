@@ -1,4 +1,3 @@
-const fetch = require("node-fetch");
 const apiUrl = `https://openlibrary.org/works/`;
 
 module.exports = {
@@ -7,9 +6,11 @@ module.exports = {
 
 async function getBook(req, res) {
   try {
-    const book = await fetch(`${apiUrl}${req.params.id}`);
-    console.log(book);
-    res.json(book);
+    const reqUrl = apiUrl + req.params.id + ".json";
+    const response = await fetch(reqUrl);
+    const data = await response.json();
+
+    res.send(data);
   } catch (error) {
     res.status(400).json(error);
   }
