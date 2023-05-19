@@ -1,7 +1,7 @@
 # BookSmart (Server) - Look Up Your Favorite Books Today
 
 * Project Link: https://book-smart-app.netlify.app/
-* Project Server: https://github.com/al-brooks/adobeda-project3-server
+* Project Client: https://github.com/al-brooks/adobeda-project3-client
 
 ## About BookSmart:
 
