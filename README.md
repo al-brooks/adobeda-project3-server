@@ -28,14 +28,10 @@ BookSmart is a web application that allows users to look up their favorite books
 
 ## Technologies:
 
-- React.js
 - Node.js
 - Openlibrary API
 - Express
-- CSS
-- HTML
 - Herokuapp
-- Netlify
 - VScode
 - Git
 - GitHub
